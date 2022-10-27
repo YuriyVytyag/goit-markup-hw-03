@@ -96,8 +96,6 @@ button{
     margin-left: 50px;
 }
 
-
-
 .page-header{
     display: flex;
 }
@@ -162,6 +160,7 @@ button{
 }
 
 .footer-address {
+    margin-bottom: 9px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
@@ -187,6 +186,11 @@ button{
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+.footer-contacts:not(:last-child){
+    margin-bottom: 9px;
+}
+
 .footer-contact:hover, .footer-contact:focus {
     color: var(--accent-color); 
 }
@@ -198,6 +202,10 @@ button{
  .footer-logo {
     color: var(--white-color);
  }
+
+.weblogo {
+    margin-bottom: 20px;
+}
 
 
 
